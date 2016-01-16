@@ -1,0 +1,19 @@
+# Site settings
+title: codepitbull
+header-img: img/home-bg.jpg
+description: "Privat blog of Jochen Mader. Ramblings, Thoughts and Notes about Software Development."
+baseurl: ""
+url: "http://codepitbull.de"
+twitter_username: codepitbull
+github_username:  codepitbull
+xing_username: Jochen_Mader
+linkedin_username: jochen-mader-a4b965112
+slideshare_username: codepitbull 
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+gems: [jekyll-paginate]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
