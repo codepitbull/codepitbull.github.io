@@ -3,11 +3,11 @@
   <channel>
     <title>codepitbull</title>
     <description>Privat blog of Jochen Mader. Ramblings, Thoughts and Notes about Software Development.</description>
-    <link>http://codepitbull.de/</link>
-    <atom:link href="http://codepitbull.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Apr 2018 23:25:53 +0200</pubDate>
-    <lastBuildDate>Wed, 25 Apr 2018 23:25:53 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 19 Jan 2020 21:31:04 +0100</pubDate>
+    <lastBuildDate>Sun, 19 Jan 2020 21:31:04 +0100</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Here we go again</title>
@@ -20,8 +20,8 @@
 &lt;p&gt;Maybe, if I got some spare time, I will merge my old articles from my &lt;a href=&quot;https://codepitbull.wordpress.com/&quot;&gt;wordpress-blog&lt;/a&gt; but I am not really sure if it’s worth the effort.&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Jan 2016 13:00:00 +0100</pubDate>
-        <link>http://codepitbull.de/2016/01/16/back_again/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2016/01/16/back_again/</guid>
+        <link>http://localhost:4000/2016/01/16/back_again/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/01/16/back_again/</guid>
         
         <category>codepitbull</category>
         
@@ -33,8 +33,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://blog.codecentric.de/en/2015/12/loadtesting-using-gatling-fatjars-and-influxdb/&quot;&gt;codecentric: Loadtesting using Gatling-FatJars and InfluxDB&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Dec 2015 13:00:00 +0100</pubDate>
-        <link>http://codepitbull.de/2015/12/02/gatling_influxdb/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/12/02/gatling_influxdb/</guid>
+        <link>http://localhost:4000/2015/12/02/gatling_influxdb/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/02/gatling_influxdb/</guid>
         
         <category>codecentric</category>
         
@@ -46,8 +46,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;http://www.heise.de/developer/artikel/Verteilte-Systeme-mit-Etcd-in-der-Praxis-2845358.html&quot;&gt;Heise: Verteilte Systeme mit Etcd in der Praxis&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Oct 2015 14:00:00 +0200</pubDate>
-        <link>http://codepitbull.de/2015/10/16/etcd/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/10/16/etcd/</guid>
+        <link>http://localhost:4000/2015/10/16/etcd/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/10/16/etcd/</guid>
         
         <category>heise</category>
         
@@ -59,8 +59,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://jaxenter.de/vert-x-sieg-in-runde-3-22268&quot;&gt;JAXEnter: Vert.x: Sieg in Runde 3&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Jul 2015 14:00:00 +0200</pubDate>
-        <link>http://codepitbull.de/2015/07/06/vertx3/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/07/06/vertx3/</guid>
+        <link>http://localhost:4000/2015/07/06/vertx3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/07/06/vertx3/</guid>
         
         <category>jaxenter</category>
         
@@ -72,8 +72,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://blog.codecentric.de/en/2015/06/real-jars-have-curves/&quot;&gt;codecentric: Real JARs have curves&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Jun 2015 14:00:00 +0200</pubDate>
-        <link>http://codepitbull.de/2015/06/22/fatjars/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/06/22/fatjars/</guid>
+        <link>http://localhost:4000/2015/06/22/fatjars/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/06/22/fatjars/</guid>
         
         <category>codecentric</category>
         
@@ -85,8 +85,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;http://blog.eisele.net/2015/02/byteman-swiss-army-knife-for-byte-code.html&quot;&gt;Blog Eisele: Byteman&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 16 Feb 2015 13:00:00 +0100</pubDate>
-        <link>http://codepitbull.de/2015/02/16/byteman/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/02/16/byteman/</guid>
+        <link>http://localhost:4000/2015/02/16/byteman/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/16/byteman/</guid>
         
         <category>guestposts</category>
         
@@ -98,8 +98,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;http://www.informatik-aktuell.de/entwicklung/programmiersprachen/vertx-3-reactive-microservices.html&quot;&gt;InformatikAktuell: Vert.x 3&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Jan 2015 13:00:00 +0100</pubDate>
-        <link>http://codepitbull.de/2015/01/12/vertx3/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2015/01/12/vertx3/</guid>
+        <link>http://localhost:4000/2015/01/12/vertx3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/01/12/vertx3/</guid>
         
         <category>InformatikAktuell</category>
         
@@ -111,8 +111,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://jaxenter.de/reactive-systems-brauchen-wir-ein-neues-it-paradigma-363&quot;&gt;JAXEnter: Reactive Systems – Brauchen wir ein neues IT-Paradigma?&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Nov 2014 13:00:00 +0100</pubDate>
-        <link>http://codepitbull.de/2014/11/06/vertx_kommentar/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2014/11/06/vertx_kommentar/</guid>
+        <link>http://localhost:4000/2014/11/06/vertx_kommentar/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/11/06/vertx_kommentar/</guid>
         
         <category>jaxenter</category>
         
@@ -124,8 +124,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://jaxenter.de/warum-vert-x-mehr-ist-als-ein-node-js-fur-die-jvm-571&quot;&gt;JAXEnter: Warum Vert.x mehr ist als ein Node.js für die JVM&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Sep 2014 14:00:00 +0200</pubDate>
-        <link>http://codepitbull.de/2014/09/26/vertx_interview/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2014/09/26/vertx_interview/</guid>
+        <link>http://localhost:4000/2014/09/26/vertx_interview/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/26/vertx_interview/</guid>
         
         <category>jaxenter</category>
         
@@ -137,8 +137,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;http://www.heise.de/developer/artikel/Vert-x-2-das-reaktive-modulare-Framework-2248970.html&quot;&gt;Heise: Vert.x 2: das reaktive, modulare Framework&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Jul 2014 14:00:00 +0200</pubDate>
-        <link>http://codepitbull.de/2014/07/04/vertx2/</link>
-        <guid isPermaLink="true">http://codepitbull.de/2014/07/04/vertx2/</guid>
+        <link>http://localhost:4000/2014/07/04/vertx2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/07/04/vertx2/</guid>
         
         <category>heise</category>
         
