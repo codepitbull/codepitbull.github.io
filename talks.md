@@ -3,6 +3,9 @@ layout: talks
 title: "Talks"
 description: "Talks I gave at conferences/meetups"
 ---
+- BedCon 2019 - Funktioniert dieses HomeOffice wirklich?
+- Meet the Experts 2019 - Chaos Engineering - Distributed problems are the best
+- JavaLand 2019 - The Architect, Does It Really Exist?
 - Building IoT 2018 - Reaktives IoT mit MQTT, Vert.x und Kubernetes
 - React Sphere 2018 - A reactive architecture based on Vert.x and Kubernetes
 - JavaLand 2018 - Chaos Engineering - Verteilte Probleme sind die schönsten Probleme
