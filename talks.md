@@ -24,6 +24,7 @@ description: "Talks I gave at conferences/meetups"
 - W-JAX 2014 - Vert.x for World Domination
 - BedCon 2012 - Tuning von Hibernate und JPA Anwendungen
 - BedCon 2012 - Hands On: Wicket + JEE6 Full Stack
+- JavaForum Stuttgart 2010 - Complex Event Processing
 
 
  
