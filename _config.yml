@@ -1,7 +1,9 @@
 # Site settings
 title: codepitbull
+author: Jochen Mader
+email: blog@codepitbull.de
 header-img: img/home-bg.jpg
-description: "Privat blog of Jochen Mader. Ramblings, Thoughts and Notes about Software Development."
+description: "Ramblings, Thoughts and Notes about Software Engineering."
 baseurl: ""
 url: "http://codepitbull.de"
 twitter_username: codepitbull
@@ -17,3 +19,16 @@ permalink: pretty
 paginate: 5
 gems: [jekyll-paginate]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+plugins:
+  - jekyll-archives
+theme: moving
+show_excerpts: true
+moving:
+  avatar_url: "/img/jochen.png" # avatar in about page
+  about_you: Coder/Speaker/Writer.
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+  social_links:
+    rss: RSS
+    github:  codepitbull
+    twitter: codepitbull

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Reactive Systems"
+title:      "🇩🇪 Reactive Systems"
 subtitle:   "Brauchen wir ein neues IT-Paradigma?"
 date:       2014-11-06 12:00:00
 author:     "Jochen Mader"

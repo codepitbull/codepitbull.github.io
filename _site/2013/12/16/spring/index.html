@@ -1,230 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Privat blog of Jochen Mader. Ramblings, Thoughts and Notes about Software Development.">
-
-    <title>Modularität als Tugend - codepitbull</title>
-
-    <link rel="canonical" href="http://localhost:4000/2013/12/16/spring/">
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/clean-blog.css">
-
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="🇩🇪 Spring: Modularität als Tugend" />
+<meta name="author" content="Jochen Mader" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="JAXEnter: Modularität als Tugend" />
+<meta property="og:description" content="JAXEnter: Modularität als Tugend" />
+<link rel="canonical" href="http://localhost:4000/2013/12/16/spring/" />
+<meta property="og:url" content="http://localhost:4000/2013/12/16/spring/" />
+<meta property="og:site_name" content="codepitbull" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-12-16T13:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"JAXEnter: Modularität als Tugend","@type":"BlogPosting","url":"http://localhost:4000/2013/12/16/spring/","headline":"🇩🇪 Spring: Modularität als Tugend","dateModified":"2013-12-16T13:00:00+01:00","datePublished":"2013-12-16T13:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2013/12/16/spring/"},"author":{"@type":"Person","name":"Jochen Mader"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/agate.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="codepitbull" /></head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <head>
+    <title>🇩🇪 Spring: Modularität als Tugend</title>
+  </head>
+  <header class="post-header"><head>
+    <title>codepitbull</title>
 </head>
+<hr>
+<div class="home-title">
+    <p class="home-heading">codepitbull</p>
+    <p class="home-sub-heading">Ramblings, Thoughts and Notes about Software Engineering.</p>
+</div>
+<hr>
+<div>
+    <ul class="contact-list">
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/">
+                <b>Blog</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/talks">
+                <b>Talks</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/print">
+                <b>Print</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/videos">
+                <b>Videos</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/about">
+                <b>About Me</b>
+            </a>
+        </li>
+    </ul>
+</div>
+<hr><h1 class="post-title p-name" itemprop="name headline">
+      🇩🇪 Spring: Modularität als Tugend
+    </h1>
+    <p class="post-meta">
+      <time
+        class="dt-published"
+        datetime="2013-12-16T13:00:00+01:00"
+        itemprop="datePublished"
+      >Dec 16, 2013
+      </time>•
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
+        ><span class="p-author h-card" itemprop="name">Jochen Mader</span></span
+      ></p>
+  </header>
 
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://jaxenter.de/modularitat-als-tugend-1912">JAXEnter: Modularität als Tugend</a></p>
 
-<body>
+  </div>
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">codepitbull</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                
-                <li>
-                    <a href="/articles/">Articles</a>
-                </li>
-                
-                <li>
-                    <a href="/links/">Links</a>
-                </li>
-                
-                <li>
-                    <a href="/print/">Print</a>
-                </li>
-                
-                <li>
-                    <a href="/talks/">Talks</a>
-                </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-
-    <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>Modularität als Tugend</h1>
-                    
-                    <h2 class="subheading">Architekturkonzepte in Spring</h2>
-                    
-                    <span class="meta">Posted by Jochen Mader on December 16, 2013</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-				<p><a href="https://jaxenter.de/modularitat-als-tugend-1912">JAXEnter: Modularität als Tugend</a></p>
-
-
-                <hr>
-
-                <ul class="pager">
-                    
-                    <li class="previous">
-                        <a href="/2013/11/05/springdata/" data-toggle="tooltip" data-placement="top" title="Weniger Code, mehr Spaß">&larr; Previous Post</a>
-                    </li>
-                    
-                    
-                    <li class="next">
-                        <a href="/2014/04/28/vertx_video/" data-toggle="tooltip" data-placement="top" title="Vert.x for World Domination">Next Post &rarr;</a>
-                    </li>
-                    
-                </ul>
-<br/>
-
-
-            </div>
-
-        </div>
-    </div>
-
+  <a class="u-url" href="/2013/12/16/spring/" hidden></a>
 </article>
 
-<hr>
-
-
-
-    <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="/feed.xml">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://twitter.com/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="https://github.com/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://xing.com/profile/Jochen_Mader">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/jochen-mader-a4b965112">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://slideshare.net/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-slideshare fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-
-
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; codepitbull 2020</p>
-            </div>
         </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <ul class="contact-list">
+            <li class="p-name"><a class="black-link" href="http://localhost:4000/about">
+                  Copyright © 2020 by Jochen Mader
+                </a></li><li>
+              <a class="u-email black-link" href="mailto:blog@codepitbull.de">blog@codepitbull.de</a></li></ul>
+        </div>
+      </div>
     </div>
-</footer>
-
-<!-- jQuery -->
-<script src="/js/jquery.min.js "></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js "></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="/js/clean-blog.min.js "></script>
-
-
-</body>
-
+  </footer></body>
 </html>

@@ -1,231 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Privat blog of Jochen Mader. Ramblings, Thoughts and Notes about Software Development.">
-
-    <title>Talks - codepitbull</title>
-
-    <link rel="canonical" href="http://localhost:4000/talks/">
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/clean-blog.css">
-
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Talks" />
+<meta name="author" content="Jochen Mader" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Talks I gave at conferences/meetups" />
+<meta property="og:description" content="Talks I gave at conferences/meetups" />
+<link rel="canonical" href="http://localhost:4000/talks/" />
+<meta property="og:url" content="http://localhost:4000/talks/" />
+<meta property="og:site_name" content="codepitbull" />
+<script type="application/ld+json">
+{"description":"Talks I gave at conferences/meetups","@type":"WebPage","url":"http://localhost:4000/talks/","headline":"Talks","author":{"@type":"Person","name":"Jochen Mader"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/agate.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="codepitbull" /></head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <div class="about-page"><head>
+    <title>codepitbull</title>
 </head>
-
-
-<body>
-
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">codepitbull</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                
-                <li>
-                    <a href="/articles/">Articles</a>
-                </li>
-                
-                <li>
-                    <a href="/links/">Links</a>
-                </li>
-                
-                <li>
-                    <a href="/print/">Print</a>
-                </li>
-                
-                <li>
-                    <a href="/talks/">Talks</a>
-                </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Talks</h1>
-                    <hr class="small">
-                    <span class="subheading">Talks I gave at conferences/meetups</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<ul>
-    <li><em>Building IoT 2018</em> - Reaktives IoT mit MQTT, Vert.x und Kubernetes</li>
-    <li><em>React Sphere 2018</em> - A reactive architecture based on Vert.x and Kubernetes</li>
-    <li><em>JavaLand 2018</em> - Chaos Engineering - Verteilte Probleme sind die schönsten Probleme</li>
-    <li><em>Berlin Expert Days 2017</em> - Vert.x Scala</li>
-    <li><em>Scala Days 2017 Copenhagen</em> - Vert.x 3 goes Scala <a target="_blank" href="https://www.youtube.com/watch?v=6D-CS4f68JI"><b>recording</b></a></li>
-    <li><em>JavaLand 2017</em> - Reactive Domain Driven Design</li>
-    <li><em>JavaLand 2017</em> - Wir haben doch keine Zeit! IoT-Datenverarbeitung mit Spark/Vert.x/Kafka</li>
-    <li><em>Building IoT 2016 </em> - Wir haben doch keine Zeit! IoT-Datenverarbeitung mit Spark/Vert.x/Kafka
-        <a target="_blank" href="https://www.youtube.com/watch?v=NlgPlFx0ND4"><b>recording</b></a>
-    </li>
-    <li><em>JanaLand 2016</em> - Workshop</em> - Vert.x 3</li>
-    <li><em>JavaLand 2016</em> - Mit Vert.x vom Monolithen zum reaktiven Microservice</li>
-    <li><em>Coding Serbia 2015</em> - Vert.x 3</li>
-    <li><em>W-JAX 2015</em> - Reactive Microservices mit Vert.x 3</li>
-    <li><em>W-JAX 2015</em> - Pannel Reactive</li>
-    <li><em>BedCon 2015</em> - Event Sourcing plus Gaming</li>
-    <li><em>JavaLand 2015</em> - Event Sourcing plus Gaming</li>
-    <li><em>Parallels 2015</em> - Reactive Streams - Datenaustausch auf die höfliche Art</li>
-    <li><em>JavaLand 2014</em> - Event Loop</li>
-    <li><em>BedCon 2014</em> - Vert.x for World Domination</li>
-    <li><em>W-JAX 2014</em> - Vert.x for World Domination <a target="_blank" href="https://vimeo.com/123735987"><b>recording</b></a></li>
-    <li><em>BedCon 2012</em> - Tuning von Hibernate und JPA Anwendungen</li>
-    <li><em>BedCon 2012</em> - Hands On: Wicket + JEE6 Full Stack</li>
+<hr>
+<div class="home-title">
+    <p class="home-heading">codepitbull</p>
+    <p class="home-sub-heading">Ramblings, Thoughts and Notes about Software Engineering.</p>
+</div>
+<hr>
+<div>
+    <ul class="contact-list">
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/">
+                <b>Blog</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/talks">
+                <b>Talks</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/print">
+                <b>Print</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/videos">
+                <b>Videos</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="http://localhost:4000/about">
+                <b>About Me</b>
+            </a>
+        </li>
+    </ul>
+</div>
+<hr><div class="about-content e-content" itemprop="articleBody">
+    <ul>
+  <li>Building IoT 2018 - Reaktives IoT mit MQTT, Vert.x und Kubernetes</li>
+  <li>React Sphere 2018 - A reactive architecture based on Vert.x and Kubernetes</li>
+  <li>JavaLand 2018 - Chaos Engineering - Verteilte Probleme sind die schönsten Probleme</li>
+  <li>Berlin Expert Days 2017 - Vert.x Scala</li>
+  <li>Scala Days 2017 Copenhagen - Vert.x 3 goes Scala</li>
+  <li>JavaLand 2017 - Reactive Domain Driven Design</li>
+  <li>JavaLand 2017 - Wir haben doch keine Zeit! IoT-Datenverarbeitung mit Spark/Vert.x/Kafka</li>
+  <li>Building IoT 2016  - Wir haben doch keine Zeit! IoT-Datenverarbeitung mit Spark/Vert.x/Kafka</li>
+  <li>JanaLand 2016 - Workshop - Vert.x 3</li>
+  <li>JavaLand 2016 - Mit Vert.x vom Monolithen zum reaktiven Microservice</li>
+  <li>Coding Serbia 2015 - Vert.x 3</li>
+  <li>W-JAX 2015 - Reactive Microservices mit Vert.x 3</li>
+  <li>W-JAX 2015 - Pannel Reactive</li>
+  <li>BedCon 2015 - Event Sourcing plus Gaming</li>
+  <li>JavaLand 2015 - Event Sourcing plus Gaming</li>
+  <li>Parallels 2015 - Reactive Streams - Datenaustausch auf die höfliche Art</li>
+  <li>JavaLand 2014 - Event Loop</li>
+  <li>BedCon 2014 - Vert.x for World Domination</li>
+  <li>W-JAX 2014 - Vert.x for World Domination</li>
+  <li>BedCon 2012 - Tuning von Hibernate und JPA Anwendungen</li>
+  <li>BedCon 2012 - Hands On: Wicket + JEE6 Full Stack</li>
 </ul>
 
 
- 
-
-		</div>
-	</div>
+  </div>
 </div>
 
-<hr>
-
-
-    <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="/feed.xml">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://twitter.com/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="https://github.com/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://xing.com/profile/Jochen_Mader">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/jochen-mader-a4b965112">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://slideshare.net/codepitbull">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-slideshare fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-
-
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; codepitbull 2020</p>
-            </div>
         </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <ul class="contact-list">
+            <li class="p-name"><a class="black-link" href="http://localhost:4000/about">
+                  Copyright © 2020 by Jochen Mader
+                </a></li><li>
+              <a class="u-email black-link" href="mailto:blog@codepitbull.de">blog@codepitbull.de</a></li></ul>
+        </div>
+      </div>
     </div>
-</footer>
-
-<!-- jQuery -->
-<script src="/js/jquery.min.js "></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js "></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="/js/clean-blog.min.js "></script>
-
-
-</body>
-
+  </footer></body>
 </html>

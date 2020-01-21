@@ -1,0 +1,39 @@
+<head>
+    <title>{{ site.title }}</title>
+</head>
+<hr>
+<div class="home-title">
+    <p class="home-heading">{{ site.title }}</p>
+    <p class="home-sub-heading">{{- site.description | escape -}}</p>
+</div>
+<hr>
+<div>
+    <ul class="contact-list">
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="{{ site.url }}/">
+                <b>Blog</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="{{ site.url }}/talks">
+                <b>Talks</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="{{ site.url }}/print">
+                <b>Print</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="{{ site.url }}/videos">
+                <b>Videos</b>
+            </a>
+        </li>
+        <li class="p-name"  style="display: inline-block;margin-right: 15px;">
+            <a class="black-link" href="{{ site.url }}/about">
+                <b>About Me</b>
+            </a>
+        </li>
+    </ul>
+</div>
+<hr>

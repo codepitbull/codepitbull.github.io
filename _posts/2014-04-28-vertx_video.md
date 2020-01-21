@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Vert.x for World Domination"
+title:      "🇩🇪 Vert.x for World Domination"
 subtitle:   "W-JAX-Session mit Jochen Mader"
 date:       2014-04-28 12:00:00
 author:     "Jochen Mader"

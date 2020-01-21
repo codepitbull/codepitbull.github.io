@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Continuous Loadtesting"
+title:      "Loadtesting using Gatling-FatJars and InfluxDB"
 subtitle:   "Loadtesting using Gatling-FatJars and InfluxDB"
 date:       2015-12-02 12:00:00
 author:     "Jochen Mader"
