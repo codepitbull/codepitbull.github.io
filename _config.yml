@@ -14,7 +14,7 @@ slideshare_username: codepitbull
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 paginate: 5
 gems: [jekyll-paginate]
