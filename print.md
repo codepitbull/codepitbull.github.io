@@ -13,11 +13,10 @@ description: "Articles/Books printed on actual paper"
 - Spring Data und QueryDSL - Java Magazin (2013)
 - Wicket 6 Bootcamp - Java Aktuell (2013)
 - Wicket – Komponentenbasiert und objektorientiert - Buch bei Entwickler Press (2012)
-- cURL und REST  - Java Magazin (2012)
-- Wicket und Activiti  - Java Magazin (2012)
-- Wicket 6  - Java Magazin (2012)
-- Spring, Equinox und RCP  - Eclipse Magazin (2009)
-- RFID und Java: Funkende Bohnen (Teil 1 + 2)  - Java Magazin (2010)
-
-
- 
+- cURL und REST - Java Magazin (2012)
+- Wicket und Activiti - Java Magazin (2012)
+- Wicket 6 - Java Magazin (2012)
+- RFID und Java: Funkende Bohnen (Part 2) - Java Magazin (2010)
+- RFID und Java: Funkende Bohnen (Part 1) - Java Magazin (2010)
+- Spring, Equinox und RCP - Eclipse Magazin (2009)
+- Diploma Thesis - Analysis and emulation of RFID systems (2007)
