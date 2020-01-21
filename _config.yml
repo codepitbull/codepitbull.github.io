@@ -21,7 +21,8 @@ gems: [jekyll-paginate]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 plugins:
   - jekyll-archives
-theme: moving
+#theme: moving
+emote_theme: huangyz0918/moving
 show_excerpts: true
 moving:
   avatar_url: "/img/jochen.png" # avatar in about page
