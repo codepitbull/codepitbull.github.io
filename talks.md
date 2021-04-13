@@ -10,6 +10,9 @@ Since then I have been onb the road talking about many topics I enjoy and also g
 
 Sadly I could only figure out the conferences I've been to. 
 
+- JavaLand 2021- Kubernetes Architektur und Infrastruktur Tests
+- Push2Prod 2020 - Container-driven cloud-journey towards an on-prem product
+- CyberLand 2020 - Mögen die Tests mit Dir sein! 
 - BedCon 2019 - Funktioniert dieses HomeOffice wirklich?
 - Meet the Experts 2019 - Chaos Engineering - Distributed problems are the best
 - JavaLand 2019 - The Architect, Does It Really Exist?
