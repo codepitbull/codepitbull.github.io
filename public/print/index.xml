@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Print articles on codepitbull</title>
+    <link>http://localhost:62283/print/</link>
+    <description>Recent content in Print articles on codepitbull</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jochen Mader 2024 &lt;a href = &#34;/imprint&#34;&gt;Impressum&lt;/a&gt;</copyright>
+    <atom:link href="http://localhost:62283/print/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaxenter on codepitbull</title>
+    <link>http://localhost:62283/tags/jaxenter/</link>
+    <description>Recent content in Jaxenter on codepitbull</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jochen Mader 2024 &lt;a href = &#34;/imprint&#34;&gt;Impressum&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 06 Jul 2015 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62283/tags/jaxenter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🇩🇪 Drittes Major Release von Vert.x: Sieg in Runde 3</title>
+      <link>http://localhost:62283/post/2015-07-06-vertx3/</link>
+      <pubDate>Mon, 06 Jul 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-07-06-vertx3/</guid>
+      <description>JAXEnter: Vert.x: Sieg in Runde 3</description>
+    </item>
+    <item>
+      <title>🇩🇪 Reactive Systems</title>
+      <link>http://localhost:62283/post/2014-11-06-vertx_kommentar/</link>
+      <pubDate>Thu, 06 Nov 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-11-06-vertx_kommentar/</guid>
+      <description>JAXEnter: Reactive Systems – Brauchen wir ein neues IT-Paradigma?</description>
+    </item>
+    <item>
+      <title>🇩🇪 Interview: Vert.x ist mehr als Node.js für die JVM</title>
+      <link>http://localhost:62283/post/2014-09-26-vertx_interview/</link>
+      <pubDate>Fri, 26 Sep 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-09-26-vertx_interview/</guid>
+      <description>JAXEnter: Warum Vert.x mehr ist als ein Node.js für die JVM</description>
+    </item>
+    <item>
+      <title>🇩🇪 Vert.x for World Domination</title>
+      <link>http://localhost:62283/post/2014-04-28-vertx_video/</link>
+      <pubDate>Mon, 28 Apr 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-04-28-vertx_video/</guid>
+      <description>Video: Vert.x for World Domination</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring: Modularität als Tugend</title>
+      <link>http://localhost:62283/post/2013-12-16-spring/</link>
+      <pubDate>Mon, 16 Dec 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-12-16-spring/</guid>
+      <description>JAXEnter: Modularität als Tugend</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring Data: Weniger Code, mehr Spaß</title>
+      <link>http://localhost:62283/post/2013-11-03-springdata/</link>
+      <pubDate>Sun, 03 Nov 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-11-03-springdata/</guid>
+      <description>JAXEnter: Weniger Code, mehr Spaß</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring IO Interview</title>
+      <link>http://localhost:62283/post/2013-09-13-springio/</link>
+      <pubDate>Fri, 13 Sep 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-09-13-springio/</guid>
+      <description>JAXEnter: Spring IO Interview</description>
+    </item>
+    <item>
+      <title>🇩🇪 cURL</title>
+      <link>http://localhost:62283/post/2012-11-13-curl/</link>
+      <pubDate>Tue, 13 Nov 2012 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2012-11-13-curl/</guid>
+      <description>JAXEnter: cURL</description>
+    </item>
+    <item>
+      <title>🇩🇪 Wicket 6: Eindrücke vom neuen Release</title>
+      <link>http://localhost:62283/post/2012-09-06-wicket6/</link>
+      <pubDate>Thu, 06 Sep 2012 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2012-09-06-wicket6/</guid>
+      <description>JAXEnter: Wicket 6</description>
+    </item>
+    <item>
+      <title>🇩🇪 Wicket 1.5</title>
+      <link>http://localhost:62283/post/2011-09-14-wicket15/</link>
+      <pubDate>Wed, 14 Sep 2011 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2011-09-14-wicket15/</guid>
+      <description>JAXEnter: Wicket 1.5</description>
+    </item>
+  </channel>
+</rss>

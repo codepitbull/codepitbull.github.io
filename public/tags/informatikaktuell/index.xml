@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>InformatikAktuell on codepitbull</title>
+    <link>http://localhost:62283/tags/informatikaktuell/</link>
+    <description>Recent content in InformatikAktuell on codepitbull</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jochen Mader 2024 &lt;a href = &#34;/imprint&#34;&gt;Impressum&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 12 Jan 2015 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62283/tags/informatikaktuell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🇩🇪 Vert.x 3: Reactive Microservices</title>
+      <link>http://localhost:62283/post/2015-01-12-vertx3/</link>
+      <pubDate>Mon, 12 Jan 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-01-12-vertx3/</guid>
+      <description>InformatikAktuell: Vert.x 3</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medium on codepitbull</title>
+    <link>http://localhost:62283/tags/medium/</link>
+    <description>Recent content in Medium on codepitbull</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jochen Mader 2024 &lt;a href = &#34;/imprint&#34;&gt;Impressum&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 07 Jun 2020 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62283/tags/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retry on Panic in Golang</title>
+      <link>http://localhost:62283/post/2020-06-07-golang_retry_on_panic/</link>
+      <pubDate>Sun, 07 Jun 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-06-07-golang_retry_on_panic/</guid>
+      <description>A small post on how to handle panics gracefully in Golang.&#xA;Retry on Panic in Golang.</description>
+    </item>
+    <item>
+      <title>Vert.x, Rust, WASM and a dash of Scala</title>
+      <link>http://localhost:62283/post/2020-04-17-vertx_rust_wasm/</link>
+      <pubDate>Fri, 17 Apr 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-04-17-vertx_rust_wasm/</guid>
+      <description>A post on Medium about using Vertx/Rust/WASM/Scala together.&#xA;Vert.x, Rust, WASM and a dash of Scala.</description>
+    </item>
+    <item>
+      <title>Cross compiling Rust and how to get tiny binaries</title>
+      <link>http://localhost:62283/post/2020-02-24-rust_crosscompile/</link>
+      <pubDate>Fri, 28 Feb 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-02-24-rust_crosscompile/</guid>
+      <description>A post on Medium about Rust cross-compilation and binary compression.&#xA;Cross compiling Rust and how to get tiny binaries.</description>
+    </item>
+  </channel>
+</rss>

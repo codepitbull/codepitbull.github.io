@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on codepitbull</title>
+    <link>http://localhost:62283/post/</link>
+    <description>Recent content in Posts on codepitbull</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jochen Mader 2024 &lt;a href = &#34;/imprint&#34;&gt;Impressum&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 07 Jun 2020 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:62283/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retry on Panic in Golang</title>
+      <link>http://localhost:62283/post/2020-06-07-golang_retry_on_panic/</link>
+      <pubDate>Sun, 07 Jun 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-06-07-golang_retry_on_panic/</guid>
+      <description>A small post on how to handle panics gracefully in Golang.&#xA;Retry on Panic in Golang.</description>
+    </item>
+    <item>
+      <title>Vert.x, Rust, WASM and a dash of Scala</title>
+      <link>http://localhost:62283/post/2020-04-17-vertx_rust_wasm/</link>
+      <pubDate>Fri, 17 Apr 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-04-17-vertx_rust_wasm/</guid>
+      <description>A post on Medium about using Vertx/Rust/WASM/Scala together.&#xA;Vert.x, Rust, WASM and a dash of Scala.</description>
+    </item>
+    <item>
+      <title>Cross compiling Rust and how to get tiny binaries</title>
+      <link>http://localhost:62283/post/2020-02-24-rust_crosscompile/</link>
+      <pubDate>Fri, 28 Feb 2020 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2020-02-24-rust_crosscompile/</guid>
+      <description>A post on Medium about Rust cross-compilation and binary compression.&#xA;Cross compiling Rust and how to get tiny binaries.</description>
+    </item>
+    <item>
+      <title>Here we go again</title>
+      <link>http://localhost:62283/post/2016-01-16-back_again/</link>
+      <pubDate>Sat, 16 Jan 2016 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2016-01-16-back_again/</guid>
+      <description>Welcome to the 3rd iteration of my blog.&#xA;I&amp;rsquo;ve been very busy during the past few years writing for a lot of different publications. For some reasons I never really kept track of the things I published in all these different places. After trying to compile a list I figured it might be worth to collect my stuff for later reference.&#xA;This won&amp;rsquo;t be another attempt to create a well maintained blog.</description>
+    </item>
+    <item>
+      <title>Loadtesting using Gatling-FatJars and InfluxDB</title>
+      <link>http://localhost:62283/post/2015-12-02-gatling_influxdb/</link>
+      <pubDate>Wed, 02 Dec 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-12-02-gatling_influxdb/</guid>
+      <description>codecentric: Loadtesting using Gatling-FatJars and InfluxDB</description>
+    </item>
+    <item>
+      <title>🇩🇪 Verteilte Systeme mit Etcd in der Praxis</title>
+      <link>http://localhost:62283/post/2015-10-16-etcd/</link>
+      <pubDate>Fri, 16 Oct 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-10-16-etcd/</guid>
+      <description>Heise: Verteilte Systeme mit Etcd in der Praxis</description>
+    </item>
+    <item>
+      <title>🇩🇪 Drittes Major Release von Vert.x: Sieg in Runde 3</title>
+      <link>http://localhost:62283/post/2015-07-06-vertx3/</link>
+      <pubDate>Mon, 06 Jul 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-07-06-vertx3/</guid>
+      <description>JAXEnter: Vert.x: Sieg in Runde 3</description>
+    </item>
+    <item>
+      <title>FatJars: Real JARs have curves</title>
+      <link>http://localhost:62283/post/2015-06-22-fatjars/</link>
+      <pubDate>Mon, 22 Jun 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-06-22-fatjars/</guid>
+      <description>codecentric: Real JARs have curves</description>
+    </item>
+    <item>
+      <title>Byteman for byte code manipulation</title>
+      <link>http://localhost:62283/post/2015-02-16-byteman/</link>
+      <pubDate>Mon, 16 Feb 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-02-16-byteman/</guid>
+      <description>Blog Eisele: Byteman</description>
+    </item>
+    <item>
+      <title>🇩🇪 Vert.x 3: Reactive Microservices</title>
+      <link>http://localhost:62283/post/2015-01-12-vertx3/</link>
+      <pubDate>Mon, 12 Jan 2015 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2015-01-12-vertx3/</guid>
+      <description>InformatikAktuell: Vert.x 3</description>
+    </item>
+    <item>
+      <title>🇩🇪 Reactive Systems</title>
+      <link>http://localhost:62283/post/2014-11-06-vertx_kommentar/</link>
+      <pubDate>Thu, 06 Nov 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-11-06-vertx_kommentar/</guid>
+      <description>JAXEnter: Reactive Systems – Brauchen wir ein neues IT-Paradigma?</description>
+    </item>
+    <item>
+      <title>🇩🇪 Interview: Vert.x ist mehr als Node.js für die JVM</title>
+      <link>http://localhost:62283/post/2014-09-26-vertx_interview/</link>
+      <pubDate>Fri, 26 Sep 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-09-26-vertx_interview/</guid>
+      <description>JAXEnter: Warum Vert.x mehr ist als ein Node.js für die JVM</description>
+    </item>
+    <item>
+      <title>🇩🇪 Vert.x 2 - das reaktive, modulare Framework</title>
+      <link>http://localhost:62283/post/2014-07-04-vertx2/</link>
+      <pubDate>Fri, 04 Jul 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-07-04-vertx2/</guid>
+      <description>Heise: Vert.x 2: das reaktive, modulare Framework</description>
+    </item>
+    <item>
+      <title>🇩🇪 Vert.x for World Domination</title>
+      <link>http://localhost:62283/post/2014-04-28-vertx_video/</link>
+      <pubDate>Mon, 28 Apr 2014 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2014-04-28-vertx_video/</guid>
+      <description>Video: Vert.x for World Domination</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring: Modularität als Tugend</title>
+      <link>http://localhost:62283/post/2013-12-16-spring/</link>
+      <pubDate>Mon, 16 Dec 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-12-16-spring/</guid>
+      <description>JAXEnter: Modularität als Tugend</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring Data: Weniger Code, mehr Spaß</title>
+      <link>http://localhost:62283/post/2013-11-03-springdata/</link>
+      <pubDate>Sun, 03 Nov 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-11-03-springdata/</guid>
+      <description>JAXEnter: Weniger Code, mehr Spaß</description>
+    </item>
+    <item>
+      <title>🇩🇪 Spring IO Interview</title>
+      <link>http://localhost:62283/post/2013-09-13-springio/</link>
+      <pubDate>Fri, 13 Sep 2013 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2013-09-13-springio/</guid>
+      <description>JAXEnter: Spring IO Interview</description>
+    </item>
+    <item>
+      <title>🇩🇪 cURL</title>
+      <link>http://localhost:62283/post/2012-11-13-curl/</link>
+      <pubDate>Tue, 13 Nov 2012 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2012-11-13-curl/</guid>
+      <description>JAXEnter: cURL</description>
+    </item>
+    <item>
+      <title>🇩🇪 Wicket 6: Eindrücke vom neuen Release</title>
+      <link>http://localhost:62283/post/2012-09-06-wicket6/</link>
+      <pubDate>Thu, 06 Sep 2012 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2012-09-06-wicket6/</guid>
+      <description>JAXEnter: Wicket 6</description>
+    </item>
+    <item>
+      <title>🇩🇪 Wicket 1.5</title>
+      <link>http://localhost:62283/post/2011-09-14-wicket15/</link>
+      <pubDate>Wed, 14 Sep 2011 12:00:00 +0000</pubDate>
+      <guid>http://localhost:62283/post/2011-09-14-wicket15/</guid>
+      <description>JAXEnter: Wicket 1.5</description>
+    </item>
+  </channel>
+</rss>
