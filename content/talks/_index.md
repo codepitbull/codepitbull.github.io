@@ -16,6 +16,7 @@ Sadly I could only figure out the conferences I've been to.
 - BedCon 2023 - Supply Chain Security vom Commit zum Deployment
 - JavaLand 2023 - Supply Chain Security vom Commit zum Deployment
 - JavaLand 2023 - Kubernetes-Operatoren mit dem Java Operator SDK
+- BuildingIot 2022 - Test-Driven IoT mit Testcontainers 
 - JavaLand 2022 - Kubernetes-Lektionen aus der Wolke
 - JavaLand 2021- Kubernetes Architektur und Infrastruktur Tests
 - Push2Prod 2020 - Container-driven cloud-journey towards an on-prem product
