@@ -11,10 +11,11 @@ short: true
 
 ---
 
-    codepitbull
-    c/o autorenglück.de
-    Franz-Mehring-Str. 15
-    01237 Dresden
+    Jochen Mader
+    c/o Postflex #8031
+    Emsdettener Str. 10
+    48268 Greven
+    Keine Pakete oder Päckchen - Annahme wird verweigert!
 
 ---
 
